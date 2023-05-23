@@ -2,6 +2,8 @@
 
 This repository contains the codebase for training a denoising diffusion probabilistic model to generate face images from pure noise. Our approach effectively scales the training process to be feasible on a personal computer. We've achieved reasonable fidelity for 32x32 and 64x64 image outputs, using the CelebA [5] dataset. This repository also offers a detailed analysis of the architecture and training process of the model, with validations for its mechanisms.
 
+![Alt text](./docs/animation_big.gif)
+
 ## Results
 
 Our model was able to produce face images of reasonable fidelity for 32x32 and 64x64 image outputs.
